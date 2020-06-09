@@ -29,6 +29,7 @@ listaCompleta = list()
 for i in range(2,21):
     listaActual = list()
     while i != 1:
+       
         if i % 2 == 0:
             i = i / 2
             listaActual.append(str(i))
@@ -39,6 +40,7 @@ for i in range(2,21):
         if i == 1:
             listaActual.append("termino")
     print(listaActual)
+    
     listaCompleta.append(listaActual)
 
 EscribirArchivo(str(listaCompleta) + "\n")
