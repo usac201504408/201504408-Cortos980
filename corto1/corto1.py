@@ -26,7 +26,7 @@ def EscribirArchivo(listaEscribir):
 numero = 20
 listaCompleta = list()
 
-for i in range(2,21):
+for i in range(2,409):
     listaActual = list()
     while i != 1:
        
